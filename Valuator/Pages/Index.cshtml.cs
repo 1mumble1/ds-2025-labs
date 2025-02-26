@@ -23,7 +23,7 @@ public class IndexModel : PageModel
     public IActionResult OnPost(string text)
     {
         _logger.LogDebug(text);
-        //if (string.IsNullOrEmpty(text)) return Redirect("Index");
+        if (string.IsNullOrEmpty(text)) return Redirect("");
 
         string id = Guid.NewGuid().ToString();
 
@@ -66,12 +66,7 @@ public class IndexModel : PageModel
         {
             if (key.StartsWith("TEXT-") && _redisService.GetString(key) == text)
             {
-                string textByRedis = _redisService.GetString(key) ?? "";
-                if (textByRedis == text)
-                {
-                    return "1";
-                }
-                //return "1";
+                return "1";
             }
         }
         return "0";
