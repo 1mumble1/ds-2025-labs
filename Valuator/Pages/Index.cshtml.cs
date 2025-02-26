@@ -26,6 +26,7 @@ public class IndexModel : PageModel
         string textKey = "TEXT-" + id;
         // TODO: (pa1) сохранить в БД (Redis) text по ключу textKey
 
+
         string rankKey = "RANK-" + id;
         // TODO: (pa1) посчитать rank и сохранить в БД (Redis) по ключу rankKey
 
