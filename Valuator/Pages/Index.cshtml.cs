@@ -23,7 +23,7 @@ public class IndexModel : PageModel
     public IActionResult OnPost(string text)
     {
         _logger.LogDebug(text);
-        if (string.IsNullOrEmpty(text)) return Redirect("");
+        if (string.IsNullOrEmpty(text)) return Redirect("/");
 
         string id = Guid.NewGuid().ToString();
 
