@@ -1,0 +1,8 @@
+2025/03/12 19:44:51 [emerg] 35852#38700: CreateFile() "C:\MRT47\ds-2025\nginx/conf/mime.types" failed (2: The system cannot find the file specified) in C:\MRT47\ds-2025\nginx/conf/nginx.conf:8
+2025/03/12 19:49:37 [emerg] 31400#28708: CreateFile() "C:\MRT47\ds-2025\nginx/conf/mime.types" failed (2: The system cannot find the file specified) in C:\MRT47\ds-2025\nginx/conf/nginx.conf:8
+2025/03/12 19:49:39 [emerg] 38460#19752: CreateFile() "C:\MRT47\ds-2025\nginx/conf/mime.types" failed (2: The system cannot find the file specified) in C:\MRT47\ds-2025\nginx/conf/nginx.conf:8
+2025/03/12 19:49:41 [emerg] 13680#46780: CreateFile() "C:\MRT47\ds-2025\nginx/conf/mime.types" failed (2: The system cannot find the file specified) in C:\MRT47\ds-2025\nginx/conf/nginx.conf:8
+2025/03/12 19:49:41 [emerg] 43124#12260: CreateFile() "C:\MRT47\ds-2025\nginx/conf/mime.types" failed (2: The system cannot find the file specified) in C:\MRT47\ds-2025\nginx/conf/nginx.conf:8
+2025/03/12 19:49:42 [emerg] 47316#29140: CreateFile() "C:\MRT47\ds-2025\nginx/conf/mime.types" failed (2: The system cannot find the file specified) in C:\MRT47\ds-2025\nginx/conf/nginx.conf:8
+2025/03/12 19:49:46 [emerg] 17380#27620: CreateFile() "C:\MRT47\ds-2025\nginx/conf/mime.types" failed (2: The system cannot find the file specified) in C:\MRT47\ds-2025\nginx/conf/nginx.conf:8
+2025/03/12 19:52:42 [error] 51008#50012: *1 CreateFile() "C:\MRT47\ds-2025\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
