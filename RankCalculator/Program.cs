@@ -49,8 +49,18 @@ public class Program
         string rank = CalculateRank(text);
         _redis.SetString($"RANK-{message}", rank);
 
+        await SendLogMessage(channel, message, rank);
+
         Console.WriteLine($"Consuming: {message} from subject {eventArgs.Exchange}");
         await channel.BasicAckAsync(eventArgs.DeliveryTag, false);
+    }
+
+    private static async Task SendLogMessage(IChannel channel, string id, string value)
+    {
+        var logMessage = $"RANK-{id}: {value}";
+        var body = Encoding.UTF8.GetBytes(logMessage);
+        await channel.BasicPublishAsync(exchange: "logs", routingKey: string.Empty, body: body);
+        Console.WriteLine($" [x] Sent {logMessage}");
     }
 
     private static string? SearchTextById(string message) => _redis.GetString($"TEXT-{message}");
@@ -83,6 +93,10 @@ public class Program
             durable: true,
             exclusive: false,
             autoDelete: false
+        );
+        await channel.ExchangeDeclareAsync(
+            exchange: "logs",
+            type: ExchangeType.Fanout
         );
     }
 }

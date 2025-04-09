@@ -4,6 +4,7 @@ using RabbitMQ.Client;
 using Services;
 using System.Text;
 using System.Text.Json;
+using System.Threading.Channels;
 
 namespace Valuator.Pages;
 
@@ -34,7 +35,8 @@ public class IndexModel : PageModel
 
         string similarityKey = "SIMILARITY-" + id;
         // TODO: (pa1) посчитать similarity и сохранить в БД (Redis) по ключу similarityKey
-        _redisService.SetString(similarityKey, CalculateSimilarity(text));
+        string similarity = CalculateSimilarity(text);
+        _redisService.SetString(similarityKey, similarity);
 
         string textKey = "TEXT-" + id;
         // TODO: (pa1) сохранить в БД (Redis) text по ключу textKey
@@ -43,12 +45,12 @@ public class IndexModel : PageModel
         //string rankKey = "RANK-" + id;
         //// TODO: (pa1) посчитать rank и сохранить в БД (Redis) по ключу rankKey
         //_redisService.SetString(rankKey, CalculateRank(text));
-        await SendMessageToBrokerAsync(id);
+        await SendMessageToBrokerAsync(id, similarity);
 
         return Redirect($"summary?id={id}");
     }
 
-    private async Task SendMessageToBrokerAsync(string id)
+    private async Task SendMessageToBrokerAsync(string id, string similarity)
     {
         ConnectionFactory factory = new ConnectionFactory
         {
@@ -61,6 +63,7 @@ public class IndexModel : PageModel
 
         var message = id;
         byte[] messageData = Encoding.UTF8.GetBytes(message);
+        await SendLogMessage(channel, id, similarity);
 
         Console.WriteLine($"Sending message: {message}");
         await channel.BasicPublishAsync(
@@ -69,6 +72,14 @@ public class IndexModel : PageModel
             mandatory: false,
             body: messageData
         );
+    }
+
+    private static async Task SendLogMessage(IChannel channel, string id, string similarity)
+    {
+        var logMessage = $"SIMILARITY-{id}: {similarity}";
+        var body = Encoding.UTF8.GetBytes(logMessage);
+        await channel.BasicPublishAsync(exchange: "logs", routingKey: string.Empty, body: body);
+        Console.WriteLine($" [x] Sent {logMessage}");
     }
 
     private async Task DeclareTopologyAsync(IChannel channel)
@@ -87,6 +98,10 @@ public class IndexModel : PageModel
             queue: QueueName,
             exchange: ExchangeName,
             routingKey: ""
+        );
+        await channel.ExchangeDeclareAsync(
+            exchange: "logs", 
+            type: ExchangeType.Fanout
         );
     }
 
