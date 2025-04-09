@@ -4,6 +4,10 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valuator", "Valuator\Valuator.csproj", "{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RankCalculator", "RankCalculator\RankCalculator.csproj", "{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{DD256637-934A-4592-A814-A3FE225B0136}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +18,14 @@ Global
 		{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD256637-934A-4592-A814-A3FE225B0136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD256637-934A-4592-A814-A3FE225B0136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD256637-934A-4592-A814-A3FE225B0136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD256637-934A-4592-A814-A3FE225B0136}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

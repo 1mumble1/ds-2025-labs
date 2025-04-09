@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
-using Valuator.Services;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using Services;
 
 namespace Valuator.Pages;
 public class SummaryModel : PageModel
@@ -21,6 +15,7 @@ public class SummaryModel : PageModel
 
     public double Rank { get; set; }
     public double Similarity { get; set; }
+    public bool IsCalculated { get; set; }
 
     public void OnGet(string id)
     {
@@ -28,14 +23,21 @@ public class SummaryModel : PageModel
 
         // TODO: (pa1) проинициализировать свойства Rank и Similarity значениями из БД (Redis)
         string rankString = _redisService.GetString("RANK-" + id) ?? "";
-        if (double.TryParse(rankString, out double rank))
+
+        IsCalculated = !string.IsNullOrEmpty(rankString);
+
+        if (IsCalculated)
         {
-            Rank = rank;
-        }
-        else
-        {
-            Rank = 0;
-            Console.WriteLine("Ошибка преобразования!");
+            if (double.TryParse(rankString, out double rank))
+            {
+                Rank = rank;
+            }
+            else
+            {
+                Rank = 0;
+                IsCalculated = false;
+                Console.WriteLine("Ошибка преобразования!");
+            }
         }
 
         string similarityString = _redisService.GetString("SIMILARITY-" + id) ?? "";

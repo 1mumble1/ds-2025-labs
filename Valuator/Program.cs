@@ -1,4 +1,4 @@
-using Valuator.Services;
+using Services;
 
 namespace Valuator;
 
