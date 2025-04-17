@@ -13,6 +13,7 @@ public class IndexModel : PageModel
     private readonly ILogger<IndexModel> _logger;
     private readonly IRedisService _redisService;
     private const string ExchangeName = "valuator.processing.rank";
+    private const string LogExchangeName = "logs";
     private const string QueueName = "valuator.processing.rank";
 
     public IndexModel(ILogger<IndexModel> logger, IRedisService redisService)
@@ -78,7 +79,7 @@ public class IndexModel : PageModel
     {
         var logMessage = $"SIMILARITY-{id}: {similarity}";
         var body = Encoding.UTF8.GetBytes(logMessage);
-        await channel.BasicPublishAsync(exchange: "logs", routingKey: string.Empty, body: body);
+        await channel.BasicPublishAsync(exchange: LogExchangeName, routingKey: string.Empty, body: body);
         Console.WriteLine($" [x] Sent {logMessage}");
     }
 
@@ -100,7 +101,7 @@ public class IndexModel : PageModel
             routingKey: ""
         );
         await channel.ExchangeDeclareAsync(
-            exchange: "logs", 
+            exchange: LogExchangeName, 
             type: ExchangeType.Fanout
         );
     }

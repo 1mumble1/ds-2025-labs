@@ -4,19 +4,25 @@ using System.Text;
 
 internal class Program
 {
+    private const string QueueName = "event.log.queue";
+    private const string ExchangeName = "logs";
     private static async Task Main(string[] args)
     {
         var factory = new ConnectionFactory { HostName = "localhost" };
         using var connection = await factory.CreateConnectionAsync();
         using var channel = await connection.CreateChannelAsync();
 
-        await channel.ExchangeDeclareAsync(exchange: "logs",
+        await channel.ExchangeDeclareAsync(exchange: ExchangeName,
             type: ExchangeType.Fanout);
 
         // declare a server-named queue
-        QueueDeclareOk queueDeclareResult = await channel.QueueDeclareAsync();
-        string queueName = queueDeclareResult.QueueName;
-        await channel.QueueBindAsync(queue: queueName, exchange: "logs", routingKey: string.Empty);
+        QueueDeclareOk queueDeclareResult = await channel.QueueDeclareAsync(
+            queue: QueueName,
+            durable: true,
+            exclusive: false,
+            autoDelete: false
+        );
+        await channel.QueueBindAsync(queue: QueueName, exchange: ExchangeName, routingKey: string.Empty);
 
         Console.WriteLine(" [*] Waiting for logs.");
 
@@ -29,7 +35,7 @@ internal class Program
             return Task.CompletedTask;
         };
 
-        await channel.BasicConsumeAsync(queueName, autoAck: true, consumer: consumer);
+        await channel.BasicConsumeAsync(QueueName, autoAck: true, consumer: consumer);
 
         Console.WriteLine(" Press [enter] to exit.");
         Console.ReadLine();

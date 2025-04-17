@@ -7,6 +7,7 @@ public class Program
 {
     private static IRedisService _redis = new RedisService("localhost:6379");
     private const string QueueName = "valuator.processing.rank";
+    private const string LogExchangeName = "logs";
 
     private static async Task Main(string[] args)
     {
@@ -59,7 +60,7 @@ public class Program
     {
         var logMessage = $"RANK-{id}: {value}";
         var body = Encoding.UTF8.GetBytes(logMessage);
-        await channel.BasicPublishAsync(exchange: "logs", routingKey: string.Empty, body: body);
+        await channel.BasicPublishAsync(exchange: LogExchangeName, routingKey: string.Empty, body: body);
         Console.WriteLine($" [x] Sent {logMessage}");
     }
 
@@ -95,7 +96,7 @@ public class Program
             autoDelete: false
         );
         await channel.ExchangeDeclareAsync(
-            exchange: "logs",
+            exchange: LogExchangeName,
             type: ExchangeType.Fanout
         );
     }
