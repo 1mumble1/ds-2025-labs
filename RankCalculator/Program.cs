@@ -5,7 +5,7 @@ using System.Text;
 
 public class Program
 {
-    private static IRedisService _redis = new RedisService("localhost:6379");
+    private static readonly IRedisService _redis = new RedisService();
     private const string QueueName = "valuator.processing.rank";
     private const string LogExchangeName = "logs";
 
@@ -45,15 +45,22 @@ public class Program
         Console.WriteLine("Consuming");
         string message = Encoding.UTF8.GetString(eventArgs.Body.ToArray());
 
-        string text = SearchTextById(message) ?? throw new Exception("Error of getting string from database");
+        string region = SearchRegion(message) ?? throw new Exception("Error of getting string from database");
+
+        string text = SearchTextById(region, message) ?? throw new Exception("Error of getting string from database");
 
         string rank = CalculateRank(text);
-        _redis.SetString($"RANK-{message}", rank);
+        _redis.SetString(region, $"RANK-{message}", rank);
 
         await SendLogMessage(channel, message, rank);
 
         Console.WriteLine($"Consuming: {message} from subject {eventArgs.Exchange}");
         await channel.BasicAckAsync(eventArgs.DeliveryTag, false);
+    }
+
+    private static string? SearchRegion(string message)
+    {
+        return _redis.GetString("main", message);
     }
 
     private static async Task SendLogMessage(IChannel channel, string id, string value)
@@ -64,7 +71,11 @@ public class Program
         Console.WriteLine($" [x] Sent {logMessage}");
     }
 
-    private static string? SearchTextById(string message) => _redis.GetString($"TEXT-{message}");
+    private static string? SearchTextById(string region, string message)
+    {
+        Console.WriteLine($"LOOKUP: {message}, {region}");
+        return _redis.GetString(region, $"TEXT-{message}");
+    }
 
     private static bool IsLatinOrCyrillic(char c)
     {

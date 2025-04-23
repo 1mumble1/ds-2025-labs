@@ -1,10 +1,8 @@
-﻿
-namespace Services
+﻿namespace Services;
+
+public interface IRedisService
 {
-    public interface IRedisService
-    {
-        List<string> GetAllKeys();
-        string? GetString(string key);
-        void SetString(string key, string value);
-    }
+    List<string> GetAllKeys(string region);
+    string? GetString(string region, string key);
+    void SetString(string region, string key, string value);
 }

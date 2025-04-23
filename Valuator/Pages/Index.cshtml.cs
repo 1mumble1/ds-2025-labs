@@ -3,8 +3,6 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using RabbitMQ.Client;
 using Services;
 using System.Text;
-using System.Text.Json;
-using System.Threading.Channels;
 
 namespace Valuator.Pages;
 
@@ -27,25 +25,24 @@ public class IndexModel : PageModel
 
     }
 
-    public async Task<IActionResult> OnPostAsync(string text)
+    public async Task<IActionResult> OnPostAsync(string text, string region)
     {
         _logger.LogDebug(text);
         if (string.IsNullOrEmpty(text)) return Redirect("/");
 
         string id = Guid.NewGuid().ToString();
 
+        _redisService.SetString("main", id, region);
+
         string similarityKey = "SIMILARITY-" + id;
-        // TODO: (pa1) посчитать similarity и сохранить в БД (Redis) по ключу similarityKey
-        string similarity = CalculateSimilarity(text);
-        _redisService.SetString(similarityKey, similarity);
+        string similarity = CalculateSimilarity(region, text);
+        Console.WriteLine($"LOOKUP: {id}, {region}");
+        _redisService.SetString(region, similarityKey, similarity);
 
         string textKey = "TEXT-" + id;
-        // TODO: (pa1) сохранить в БД (Redis) text по ключу textKey
-        _redisService.SetString(textKey, text);
+        Console.WriteLine($"LOOKUP: {id}, {region}");
+        _redisService.SetString(region, textKey, text);
 
-        //string rankKey = "RANK-" + id;
-        //// TODO: (pa1) посчитать rank и сохранить в БД (Redis) по ключу rankKey
-        //_redisService.SetString(rankKey, CalculateRank(text));
         await SendMessageToBrokerAsync(id, similarity);
 
         return Redirect($"summary?id={id}");
@@ -106,12 +103,12 @@ public class IndexModel : PageModel
         );
     }
 
-    private string CalculateSimilarity(string text)
+    private string CalculateSimilarity(string region, string text)
     {
-        List<string> keys = _redisService.GetAllKeys();
+        List<string> keys = _redisService.GetAllKeys(region);
         foreach (string key in keys)
         {
-            if (key.StartsWith("TEXT-") && _redisService.GetString(key) == text)
+            if (key.StartsWith("TEXT-") && _redisService.GetString(region, key) == text)
             {
                 return "1";
             }

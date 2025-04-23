@@ -21,8 +21,9 @@ public class SummaryModel : PageModel
     {
         _logger.LogDebug(id);
 
-        // TODO: (pa1) проинициализировать свойства Rank и Similarity значениями из БД (Redis)
-        string rankString = _redisService.GetString("RANK-" + id) ?? "";
+        string region = _redisService.GetString("main", id) ?? throw new Exception("Error of getting string from database");
+        Console.WriteLine($"LOOKUP: {id}, {region}");
+        string rankString = _redisService.GetString(region, "RANK-" + id) ?? "";
 
         IsCalculated = !string.IsNullOrEmpty(rankString);
 
@@ -40,7 +41,8 @@ public class SummaryModel : PageModel
             }
         }
 
-        string similarityString = _redisService.GetString("SIMILARITY-" + id) ?? "";
+        Console.WriteLine($"LOOKUP: {id}, {region}");
+        string similarityString = _redisService.GetString(region, "SIMILARITY-" + id) ?? "";
         if (double.TryParse(similarityString, out double similarity))
         {
             Similarity = similarity;
