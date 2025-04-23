@@ -5,7 +5,7 @@ using System.Text;
 
 public class Program
 {
-    private static IRedisService _redis = new RedisService("localhost:6379");
+    private static IRedisService _redis = new RedisService("localhost:6000");
     private const string QueueName = "valuator.processing.rank";
     private const string LogExchangeName = "logs";
 
