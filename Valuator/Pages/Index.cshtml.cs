@@ -36,11 +36,11 @@ public class IndexModel : PageModel
 
         string similarityKey = "SIMILARITY-" + id;
         string similarity = CalculateSimilarity(region, text);
-        Console.WriteLine($"LOOKUP: {id}, {region}");
+
         _redisService.SetString(region, similarityKey, similarity);
 
         string textKey = "TEXT-" + id;
-        Console.WriteLine($"LOOKUP: {id}, {region}");
+
         _redisService.SetString(region, textKey, text);
 
         await SendMessageToBrokerAsync(id, similarity);

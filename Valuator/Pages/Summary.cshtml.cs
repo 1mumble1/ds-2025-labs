@@ -22,7 +22,7 @@ public class SummaryModel : PageModel
         _logger.LogDebug(id);
 
         string region = _redisService.GetString("main", id) ?? throw new Exception("Error of getting string from database");
-        Console.WriteLine($"LOOKUP: {id}, {region}");
+
         string rankString = _redisService.GetString(region, "RANK-" + id) ?? "";
 
         IsCalculated = !string.IsNullOrEmpty(rankString);
@@ -41,7 +41,6 @@ public class SummaryModel : PageModel
             }
         }
 
-        Console.WriteLine($"LOOKUP: {id}, {region}");
         string similarityString = _redisService.GetString(region, "SIMILARITY-" + id) ?? "";
         if (double.TryParse(similarityString, out double similarity))
         {

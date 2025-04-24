@@ -45,7 +45,7 @@ public class Program
         Console.WriteLine("Consuming");
         string message = Encoding.UTF8.GetString(eventArgs.Body.ToArray());
 
-        string region = SearchRegion(message) ?? throw new Exception("Error of getting string from database");
+        string region = SearchRegion(message) ?? "Error of getting string from database";
 
         string text = SearchTextById(region, message) ?? throw new Exception("Error of getting string from database");
 
@@ -58,9 +58,14 @@ public class Program
         await channel.BasicAckAsync(eventArgs.DeliveryTag, false);
     }
 
-    private static string? SearchRegion(string message)
+    private static string? SearchRegion(string id)
     {
-        return _redis.GetString("main", message);
+        return _redis.GetString("main", id);
+    }
+
+    private static string? SearchTextById(string region, string message)
+    {
+        return _redis.GetString(region, $"TEXT-{message}");
     }
 
     private static async Task SendLogMessage(IChannel channel, string id, string value)
@@ -71,11 +76,6 @@ public class Program
         Console.WriteLine($" [x] Sent {logMessage}");
     }
 
-    private static string? SearchTextById(string region, string message)
-    {
-        Console.WriteLine($"LOOKUP: {message}, {region}");
-        return _redis.GetString(region, $"TEXT-{message}");
-    }
 
     private static bool IsLatinOrCyrillic(char c)
     {

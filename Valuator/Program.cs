@@ -8,7 +8,7 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        builder.Services.AddSingleton<IRedisService>(new RedisService());/*(new RedisService(connectionString))*/
+        builder.Services.AddSingleton<IRedisService>(new RedisService());
 
         // Add services to the container.
         builder.Services.AddRazorPages();
