@@ -50,9 +50,11 @@ public class IndexModel : PageModel
 
     private async Task SendMessageToBrokerAsync(string id, string similarity)
     {
-        ConnectionFactory factory = new ConnectionFactory
+        var factory = new ConnectionFactory
         {
-            HostName = "localhost"
+            HostName = "localhost",
+            UserName = Environment.GetEnvironmentVariable("RABBITMQ_DEFAULT_USER"),
+            Password = Environment.GetEnvironmentVariable("RABBITMQ_DEFAULT_PASS")
         };
         await using IConnection connection = await factory.CreateConnectionAsync();
         await using IChannel channel = await connection.CreateChannelAsync();

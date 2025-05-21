@@ -12,7 +12,7 @@ public class TextTestSteps : IDisposable
     IndexPage _indexPage;
     SummaryPage _summaryPage;
 
-    const string URL = "http://localhost:8080/";
+    const string URL = "http://localhost:8080";
 
     [Given(@"User open web application")]
     public void OpenBrowser()
@@ -40,5 +40,6 @@ public class TextTestSteps : IDisposable
     public void Dispose()
     {
         _webDriver.Quit();
+        _webDriver.Dispose();
     }
 }

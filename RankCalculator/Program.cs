@@ -14,9 +14,11 @@ public class Program
 
     private static async Task Main(string[] args)
     {
-        ConnectionFactory factory = new ConnectionFactory
+        var factory = new ConnectionFactory
         {
             HostName = "localhost",
+            UserName = Environment.GetEnvironmentVariable("RABBITMQ_DEFAULT_USER"),
+            Password = Environment.GetEnvironmentVariable("RABBITMQ_DEFAULT_PASS")
         };
         await using IConnection connection = await factory.CreateConnectionAsync();
         await using IChannel channel = await connection.CreateChannelAsync();

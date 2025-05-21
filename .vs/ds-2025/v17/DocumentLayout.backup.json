@@ -3,72 +3,44 @@
   "WorkspaceRootPath": "C:\\MRT47\\ds-2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\tests\\textteststeps.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\tests\\textteststeps.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\tests\\textteststeps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\tests\\textteststeps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\pages\\summarypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\pages\\summarypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\pages\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\pages\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\pages\\indexpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\pages\\indexpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}|RankCalculator\\RankCalculator.csproj|c:\\mrt47\\ds-2025\\rankcalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}|RankCalculator\\RankCalculator.csproj|solutionrelative:rankcalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\e2e.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\e2e.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\tests\\textteststeps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\tests\\textteststeps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|c:\\mrt47\\ds-2025\\rank.tests\\rankcalculatortests\\rankcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|solutionrelative:rank.tests\\rankcalculatortests\\rankcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{392E1FA5-C130-4D56-B105-8AD1494229E3}|EventLogger\\EventLogger.csproj|c:\\mrt47\\ds-2025\\eventlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{392E1FA5-C130-4D56-B105-8AD1494229E3}|EventLogger\\EventLogger.csproj|solutionrelative:eventlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}|RankCalculator\\RankCalculator.csproj|c:\\mrt47\\ds-2025\\rankcalculator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}|RankCalculator\\RankCalculator.csproj|solutionrelative:rankcalculator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|c:\\mrt47\\ds-2025\\rank.tests\\docs\\rank-tests.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|solutionrelative:rank.tests\\docs\\rank-tests.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\tests\\textteststeps.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\tests\\textteststeps.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\pages\\summary.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\pages\\summary.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}|RankCalculator\\RankCalculator.csproj|c:\\mrt47\\ds-2025\\rankcalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}|RankCalculator\\RankCalculator.csproj|solutionrelative:rankcalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{392E1FA5-C130-4D56-B105-8AD1494229E3}|EventLogger\\EventLogger.csproj|c:\\mrt47\\ds-2025\\eventlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{392E1FA5-C130-4D56-B105-8AD1494229E3}|EventLogger\\EventLogger.csproj|solutionrelative:eventlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD256637-934A-4592-A814-A3FE225B0136}|Services\\Services.csproj|c:\\mrt47\\ds-2025\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD256637-934A-4592-A814-A3FE225B0136}|Services\\Services.csproj|solutionrelative:services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD256637-934A-4592-A814-A3FE225B0136}|Services\\Services.csproj|c:\\mrt47\\ds-2025\\services\\iredisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD256637-934A-4592-A814-A3FE225B0136}|Services\\Services.csproj|solutionrelative:services\\iredisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\valuator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\valuator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 37,
+          "SelectedChildIndex": 34,
           "Children": [
             {
               "$type": "Bookmark",
@@ -218,119 +190,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Summary.cshtml",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Summary.cshtml",
-              "RelativeDocumentMoniker": "Valuator\\Pages\\Summary.cshtml",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Summary.cshtml",
-              "RelativeToolTip": "Valuator\\Pages\\Summary.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Valuator\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Valuator\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T16:37:20.964Z",
+              "WhenOpened": "2025-05-21T20:17:37.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SummaryPage.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\SummaryPage.cs",
-              "RelativeDocumentMoniker": "E2E.Tests\\Pages\\SummaryPage.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\SummaryPage.cs",
-              "RelativeToolTip": "E2E.Tests\\Pages\\SummaryPage.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAAC0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T16:14:05.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IndexPage.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\IndexPage.cs",
-              "RelativeDocumentMoniker": "E2E.Tests\\Pages\\IndexPage.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\IndexPage.cs",
-              "RelativeToolTip": "E2E.Tests\\Pages\\IndexPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T16:13:32.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TextTestSteps.feature",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\TextTestSteps.feature",
-              "RelativeDocumentMoniker": "E2E.Tests\\Tests\\TextTestSteps.feature",
-              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\TextTestSteps.feature",
-              "RelativeToolTip": "E2E.Tests\\Tests\\TextTestSteps.feature",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-21T12:56:40.059Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Valuator\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Valuator\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T20:15:31.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IndexPage.cs",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\IndexPage.cs",
+              "RelativeDocumentMoniker": "E2E.Tests\\Pages\\IndexPage.cs",
+              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\IndexPage.cs",
+              "RelativeToolTip": "E2E.Tests\\Pages\\IndexPage.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:14:07.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TextTestSteps.cs",
               "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\TextTestSteps.cs",
               "RelativeDocumentMoniker": "E2E.Tests\\Tests\\TextTestSteps.cs",
               "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\TextTestSteps.cs",
               "RelativeToolTip": "E2E.Tests\\Tests\\TextTestSteps.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:44:28.807Z",
+              "WhenOpened": "2025-05-21T20:11:59.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TextTestSteps.feature",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\TextTestSteps.feature",
+              "RelativeDocumentMoniker": "E2E.Tests\\Tests\\TextTestSteps.feature",
+              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\TextTestSteps.feature",
+              "RelativeToolTip": "E2E.Tests\\Tests\\TextTestSteps.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-21T20:11:55.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Summary.cshtml.cs",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Summary.cshtml.cs",
+              "RelativeDocumentMoniker": "Valuator\\Pages\\Summary.cshtml.cs",
+              "ToolTip": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Summary.cshtml.cs",
+              "RelativeToolTip": "Valuator\\Pages\\Summary.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T17:38:26.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "E2E.Tests",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\E2E.Tests.csproj",
-              "RelativeDocumentMoniker": "E2E.Tests\\E2E.Tests.csproj",
-              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\E2E.Tests.csproj",
-              "RelativeToolTip": "E2E.Tests\\E2E.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-21T12:41:47.755Z",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Valuator\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Valuator\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAADkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T17:38:09.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RankCalculatorTests.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
-              "RelativeDocumentMoniker": "Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
-              "RelativeToolTip": "Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAkAAAAFAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\RankCalculator\\Program.cs",
+              "RelativeDocumentMoniker": "RankCalculator\\Program.cs",
+              "ToolTip": "C:\\MRT47\\ds-2025\\RankCalculator\\Program.cs",
+              "RelativeToolTip": "RankCalculator\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:18:58.569Z",
+              "WhenOpened": "2025-05-21T17:37:18.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "docker-compose.yaml",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\RankCalculator\\docker-compose.yaml",
-              "RelativeDocumentMoniker": "RankCalculator\\docker-compose.yaml",
-              "ToolTip": "C:\\MRT47\\ds-2025\\RankCalculator\\docker-compose.yaml",
-              "RelativeToolTip": "RankCalculator\\docker-compose.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-05-21T12:25:29.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "rank-tests.txt",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Rank.Tests\\docs\\rank-tests.txt",
-              "RelativeDocumentMoniker": "Rank.Tests\\docs\\rank-tests.txt",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Rank.Tests\\docs\\rank-tests.txt",
-              "RelativeToolTip": "Rank.Tests\\docs\\rank-tests.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-21T10:24:47.794Z",
+              "Title": "RedisService.cs",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Services\\RedisService.cs",
+              "RelativeDocumentMoniker": "Services\\RedisService.cs",
+              "ToolTip": "C:\\MRT47\\ds-2025\\Services\\RedisService.cs",
+              "RelativeToolTip": "Services\\RedisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T18:28:12.01Z",
               "EditorCaption": ""
             },
             {
@@ -341,111 +313,20 @@
               "RelativeDocumentMoniker": "EventLogger\\Program.cs",
               "ToolTip": "C:\\MRT47\\ds-2025\\EventLogger\\Program.cs",
               "RelativeToolTip": "EventLogger\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T19:47:44.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Valuator\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Valuator\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:40:20.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Valuator.csproj",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\Valuator.csproj",
-              "RelativeDocumentMoniker": "Valuator\\Valuator.csproj",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Valuator\\Valuator.csproj",
-              "RelativeToolTip": "Valuator\\Valuator.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-24T05:19:28.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Summary.cshtml.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Summary.cshtml.cs",
-              "RelativeDocumentMoniker": "Valuator\\Pages\\Summary.cshtml.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Summary.cshtml.cs",
-              "RelativeToolTip": "Valuator\\Pages\\Summary.cshtml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:13:13.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IRedisService.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Services\\IRedisService.cs",
-              "RelativeDocumentMoniker": "Services\\IRedisService.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Services\\IRedisService.cs",
-              "RelativeToolTip": "Services\\IRedisService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:28:22.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RedisService.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Services\\RedisService.cs",
-              "RelativeDocumentMoniker": "Services\\RedisService.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Services\\RedisService.cs",
-              "RelativeToolTip": "Services\\RedisService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:28:12.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\Program.cs",
-              "RelativeDocumentMoniker": "Valuator\\Program.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Valuator\\Program.cs",
-              "RelativeToolTip": "Valuator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:27:09.131Z",
               "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\RankCalculator\\Program.cs",
-              "RelativeDocumentMoniker": "RankCalculator\\Program.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\RankCalculator\\Program.cs",
-              "RelativeToolTip": "RankCalculator\\Program.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:14:18.014Z",
-              "EditorCaption": ""
             }
           ]
         }

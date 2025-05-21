@@ -8,7 +8,12 @@ internal class Program
     private const string ExchangeName = "logs";
     private static async Task Main(string[] args)
     {
-        var factory = new ConnectionFactory { HostName = "localhost" };
+        var factory = new ConnectionFactory
+        {
+            HostName = "localhost",
+            UserName = Environment.GetEnvironmentVariable("RABBITMQ_DEFAULT_USER"),
+            Password = Environment.GetEnvironmentVariable("RABBITMQ_DEFAULT_PASS")
+        };
         using var connection = await factory.CreateConnectionAsync();
         using var channel = await connection.CreateChannelAsync();
 
