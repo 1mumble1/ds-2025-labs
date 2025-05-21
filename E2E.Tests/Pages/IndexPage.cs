@@ -8,9 +8,7 @@ public class IndexPage
     IWebDriver _webDriver;
     private static readonly By
         _textAreaXPath = By.XPath("//textarea[@name='text']"),
-        _regionSelectedXPath = By.XPath("//select[@name='region']"),
-        _sumbitBtnXPath = By.XPath("//input[@type='submit']"),
-        _regionSelectorOptionsXPath = By.XPath(".//option");
+        _submitButtonXPath = By.XPath("//input[@type='submit']");
 
     public IndexPage(IWebDriver webDriver)
     {
@@ -21,37 +19,18 @@ public class IndexPage
     {
         return _webDriver.FindElement(_textAreaXPath);
     }
-    public IWebElement GetRegionSelecter()
+
+    public IWebElement GetSubmitButton()
     {
-        return _webDriver.FindElement(_regionSelectedXPath);
-    }
-    public IWebElement GetSumbitBtn()
-    {
-        return _webDriver.FindElement(_sumbitBtnXPath);
+        return _webDriver.FindElement(_submitButtonXPath);
     }
 
     public void SetTextToArea(string text)
     {
         GetTextArea().SendKeys(text);
     }
-    public void SelectRegion(string text)
+    public void Submit()
     {
-        IWebElement selector = GetRegionSelecter();
-        selector.Click();
-
-        ReadOnlyCollection<IWebElement> options = selector.FindElements(_regionSelectorOptionsXPath);
-
-        foreach (IWebElement option in options)
-        {
-            if (option.Text == text)
-            {
-                option.Click();
-                break;
-            }
-        }
-    }
-    public void SumbitText()
-    {
-        GetSumbitBtn().Click();
+        GetSubmitButton().Click();
     }
 }

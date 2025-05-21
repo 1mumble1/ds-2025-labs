@@ -6,7 +6,7 @@ using Reqnroll;
 namespace E2ETests.Tests;
 
 [Binding]
-public class TextTestSteps : IDisposable
+public class SendingTextAndCheckRankTest : IDisposable
 {
     IWebDriver _webDriver;
     IndexPage _indexPage;
@@ -28,7 +28,7 @@ public class TextTestSteps : IDisposable
     public void SendText(string text)
     {
         _indexPage.SetTextToArea(text);
-        _indexPage.SumbitText();
+        _indexPage.Submit();
     }
 
     [Then(@"Application returns rank = (.*)")]
