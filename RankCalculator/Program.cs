@@ -2,6 +2,9 @@
 using RabbitMQ.Client;
 using Services;
 using System.Text;
+using System.Globalization;
+
+namespace RankCalculator;
 
 public class Program
 {
@@ -79,19 +82,48 @@ public class Program
 
     private static bool IsLatinOrCyrillic(char c)
     {
-        return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') ||
-               (c >= 'А' && c <= 'Я') || (c >= 'а' && c <= 'я') ||
-               (c == 'Ё') ||
-               (c == 'ё');
+        return c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z' ||
+               c >= 'А' && c <= 'Я' || c >= 'а' && c <= 'я' ||
+               c == 'Ё' ||
+               c == 'ё';
     }
 
-    private static string CalculateRank(string text)
+    private static int CountNonalphabetSymbols(string text)
     {
-        double length = text.Length;
-        double counterNonalphabetSymbols = text.Count(c =>
-            !IsLatinOrCyrillic(c));
+        var strInfo = new StringInfo(text);
+        var count = 0;
 
-        return (counterNonalphabetSymbols / length).ToString();
+        for (int i = 0; i < strInfo.LengthInTextElements; i++)
+        {
+            string element = strInfo.SubstringByTextElements(i, 1);
+            if (element.Length > 1)
+            {
+                count++;
+            }
+            else if (!IsLatinOrCyrillic(element[0]))
+            {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    public static string CalculateRank(string text)
+    {
+        int length = new StringInfo(text).LengthInTextElements;
+        //double length = text.Length;
+        if (length == 0)
+        {
+            return "0";
+        }
+
+        //int counterNonalphabetSymbols = text.Count(c =>
+        //    !IsLatinOrCyrillic(c));
+
+        int counterNonalphabetSymbols = CountNonalphabetSymbols(text);
+
+        return ((double)counterNonalphabetSymbols / length).ToString();
     }
 
 

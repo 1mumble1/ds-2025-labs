@@ -1,0 +1,7 @@
+﻿INPUT_STRING     EXPECTED_RANK
+    "a"             "0"
+    ""              "0"
+    "a1"            "0,5"
+    "1"             "1"
+    "&"             "1"
+    "abc👍"         "0,25"
