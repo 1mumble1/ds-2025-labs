@@ -1,6 +1,6 @@
 ﻿using StackExchange.Redis;
 
-namespace Services;
+namespace Services.Database;
 
 public class RedisService : IRedisService
 {

@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
-using Services;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Services.Database;
 
 namespace Valuator.Pages;
 public class SummaryModel : PageModel
@@ -17,11 +18,23 @@ public class SummaryModel : PageModel
     public double Similarity { get; set; }
     public bool IsCalculated { get; set; }
 
-    public void OnGet(string id)
+    public IActionResult OnGet(string id)
     {
+        string? username = User.Identity.Name;
+        if (string.IsNullOrEmpty(username))
+        {
+            return RedirectToPage("/Login");
+        }
+
         _logger.LogDebug(id);
 
         string region = _redisService.GetString("main", id) ?? throw new Exception("Error of getting string from database");
+
+        string author = _redisService.GetString(region, $"USER-{id}") ?? "";
+        if (author != username)
+        {
+            return Forbid();
+        }
 
         string rankString = _redisService.GetString(region, "RANK-" + id) ?? "";
 
@@ -51,5 +64,7 @@ public class SummaryModel : PageModel
             Similarity = 0;
             Console.WriteLine("Ошибка преобразования!");
         }
+
+        return Page();
     }
 }

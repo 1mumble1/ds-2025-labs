@@ -1,0 +1,26 @@
+﻿@page
+@model Valuator.Pages.LoginModel
+@{
+    ViewData["Title"] = "Вход";
+}
+
+<div class="text-center">
+    <h1 class ="col-10">Вход</h1>
+    <form method="post">
+        <div class ="col-5">
+            <label for="username">Логин:</label>
+            <input type="text" id="username" name="username" required />
+        </div>
+        <div class="col-5">
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required />
+        </div>
+        <div class="col-2">
+            <input type="submit" value="Войти" />
+        </div>
+    </form>
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">@Model.ErrorMessage</div>
+    }
+</div>

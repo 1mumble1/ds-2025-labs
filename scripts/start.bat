@@ -9,11 +9,13 @@ set DB_MAIN=localhost:6000
 set DB_RU=localhost:6001
 set DB_EU=localhost:6002
 set DB_ASIA=localhost:6003
+set DB_USERS=localhost:6004
 
 set DB_MAIN_PASS=main
 set DB_RU_PASS=ru
 set DB_EU_PASS=eu
 set DB_ASIA_PASS=asia
+set DB_USERS_PASS=users
 
 set RABBITMQ_DEFAULT_USER=rabbituser
 set RABBITMQ_DEFAULT_PASS=rabbitpass

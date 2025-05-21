@@ -3,6 +3,7 @@ using RabbitMQ.Client;
 using Services;
 using System.Text;
 using System.Globalization;
+using Services.Database;
 
 namespace RankCalculator;
 

@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RabbitMQ.Client;
-using Services;
+using Services.Database;
+using System.Security.Claims;
+using System;
 using System.Text;
 
 namespace Valuator.Pages;
@@ -28,11 +31,21 @@ public class IndexModel : PageModel
     public async Task<IActionResult> OnPostAsync(string text, string region)
     {
         _logger.LogDebug(text);
-        if (string.IsNullOrEmpty(text)) return Redirect("/");
+        if (string.IsNullOrEmpty(text))
+        {
+            return Redirect("/");
+        }
+
+        string? username = User.Identity.Name;
+        if (string.IsNullOrEmpty(username))
+        {
+            return RedirectToPage("/Login");
+        }
 
         string id = Guid.NewGuid().ToString();
 
         _redisService.SetString("main", id, region);
+        _redisService.SetString(region, $"USER-{id}", username);
 
         string similarityKey = "SIMILARITY-" + id;
         string similarity = CalculateSimilarity(region, text);
@@ -46,6 +59,7 @@ public class IndexModel : PageModel
         await SendMessageToBrokerAsync(id, similarity);
 
         return Redirect($"summary?id={id}");
+
     }
 
     private async Task SendMessageToBrokerAsync(string id, string similarity)

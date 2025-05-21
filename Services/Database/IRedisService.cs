@@ -1,4 +1,4 @@
-﻿namespace Services;
+﻿namespace Services.Database;
 
 public interface IRedisService
 {

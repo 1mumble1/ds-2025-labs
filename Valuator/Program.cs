@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Services;
+using Services.Database;
 
 namespace Valuator;
 
@@ -13,6 +15,22 @@ public class Program
         // Add services to the container.
         builder.Services.AddRazorPages();
 
+        //builder.Services.AddSession(options =>
+        //{
+        //    options.IdleTimeout = TimeSpan.FromMinutes(30);
+        //    options.Cookie.HttpOnly = true;
+        //    options.Cookie.IsEssential = true;
+        //    options.Cookie.Name = "Valuator.Session";
+        //});
+
+        builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(options =>
+            {
+                options.LoginPath = "/Login";
+                options.LogoutPath = "/Logout";
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+            });
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -24,7 +42,9 @@ public class Program
 
         app.UseRouting();
 
-        app.UseAuthorization();
+        //app.UseAuthorization();
+        app.UseAuthentication();   // добавление middleware аутентификации 
+        app.UseAuthorization();   // добавление middleware авторизации 
 
         app.MapRazorPages();
 
