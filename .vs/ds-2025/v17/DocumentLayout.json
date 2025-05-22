@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\MRT47\\ds-2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\tests\\sendingtextandcheckranktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\tests\\sendingtextandcheckranktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\tests\\sendingtextandcheckrank.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\tests\\sendingtextandcheckrank.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\pages\\summarypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\pages\\summarypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +19,20 @@
       "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\pages\\indexpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\tests\\sendingtextandcheckrank.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\tests\\sendingtextandcheckrank.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|c:\\mrt47\\ds-2025\\rank.tests\\rankcalculatortests\\rankcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|solutionrelative:rank.tests\\rankcalculatortests\\rankcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|c:\\mrt47\\ds-2025\\e2e.tests\\tests\\sendingtextandcheckranktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\tests\\sendingtextandcheckranktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|c:\\mrt47\\ds-2025\\rank.tests\\docs\\rank-tests.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|solutionrelative:rank.tests\\docs\\rank-tests.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}|RankCalculator\\RankCalculator.csproj|c:\\mrt47\\ds-2025\\rankcalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}|RankCalculator\\RankCalculator.csproj|solutionrelative:rankcalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|solutionrelative:valuator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\pages\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,20 +43,12 @@
       "RelativeMoniker": "D:0:0:{4A5460EB-430C-4222-8185-01CF28C4E983}|E2E.Tests\\E2E.Tests.csproj|solutionrelative:e2e.tests\\e2e.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|c:\\mrt47\\ds-2025\\rank.tests\\rankcalculatortests\\rankcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|solutionrelative:rank.tests\\rankcalculatortests\\rankcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{392E1FA5-C130-4D56-B105-8AD1494229E3}|EventLogger\\EventLogger.csproj|c:\\mrt47\\ds-2025\\eventlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{392E1FA5-C130-4D56-B105-8AD1494229E3}|EventLogger\\EventLogger.csproj|solutionrelative:eventlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}|RankCalculator\\RankCalculator.csproj|c:\\mrt47\\ds-2025\\rankcalculator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{07E60BF7-966A-42CE-9B15-C1415ADDBA3A}|RankCalculator\\RankCalculator.csproj|solutionrelative:rankcalculator\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|c:\\mrt47\\ds-2025\\rank.tests\\docs\\rank-tests.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2C811BFF-5335-4159-A069-C74335B1E68C}|Rank.Tests\\Rank.Tests.csproj|solutionrelative:rank.tests\\docs\\rank-tests.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB3B7AF3-09CB-8246-6EE6-CF385AAB4AA1}|Valuator\\Valuator.csproj|c:\\mrt47\\ds-2025\\valuator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -223,38 +223,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SummaryPage.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\SummaryPage.cs",
-              "RelativeDocumentMoniker": "E2E.Tests\\Pages\\SummaryPage.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\SummaryPage.cs",
-              "RelativeToolTip": "E2E.Tests\\Pages\\SummaryPage.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Title": "SendingTextAndCheckRankTest.cs",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\SendingTextAndCheckRankTest.cs",
+              "RelativeDocumentMoniker": "E2E.Tests\\Tests\\SendingTextAndCheckRankTest.cs",
+              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\SendingTextAndCheckRankTest.cs",
+              "RelativeToolTip": "E2E.Tests\\Tests\\SendingTextAndCheckRankTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T16:14:05.008Z",
+              "WhenOpened": "2025-05-21T12:44:28.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IndexPage.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\IndexPage.cs",
-              "RelativeDocumentMoniker": "E2E.Tests\\Pages\\IndexPage.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\IndexPage.cs",
-              "RelativeToolTip": "E2E.Tests\\Pages\\IndexPage.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T16:13:32.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "SendingTextAndCheckRank.feature",
               "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\SendingTextAndCheckRank.feature",
               "RelativeDocumentMoniker": "E2E.Tests\\Tests\\SendingTextAndCheckRank.feature",
               "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\SendingTextAndCheckRank.feature",
               "RelativeToolTip": "E2E.Tests\\Tests\\SendingTextAndCheckRank.feature",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-21T12:56:40.059Z",
               "EditorCaption": ""
@@ -262,19 +249,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SendingTextAndCheckRankTest.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\SendingTextAndCheckRankTest.cs",
-              "RelativeDocumentMoniker": "E2E.Tests\\Tests\\SendingTextAndCheckRankTest.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Tests\\SendingTextAndCheckRankTest.cs",
-              "RelativeToolTip": "E2E.Tests\\Tests\\SendingTextAndCheckRankTest.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Title": "IndexPage.cs",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\IndexPage.cs",
+              "RelativeDocumentMoniker": "E2E.Tests\\Pages\\IndexPage.cs",
+              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\IndexPage.cs",
+              "RelativeToolTip": "E2E.Tests\\Pages\\IndexPage.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:44:28.807Z",
+              "WhenOpened": "2025-05-21T16:13:32.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "SummaryPage.cs",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\SummaryPage.cs",
+              "RelativeDocumentMoniker": "E2E.Tests\\Pages\\SummaryPage.cs",
+              "ToolTip": "C:\\MRT47\\ds-2025\\E2E.Tests\\Pages\\SummaryPage.cs",
+              "RelativeToolTip": "E2E.Tests\\Pages\\SummaryPage.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T16:14:05.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RankCalculatorTests.cs",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
+              "RelativeDocumentMoniker": "Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
+              "ToolTip": "C:\\MRT47\\ds-2025\\Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
+              "RelativeToolTip": "Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:18:58.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "rank-tests.txt",
+              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Rank.Tests\\docs\\rank-tests.txt",
+              "RelativeDocumentMoniker": "Rank.Tests\\docs\\rank-tests.txt",
+              "ToolTip": "C:\\MRT47\\ds-2025\\Rank.Tests\\docs\\rank-tests.txt",
+              "RelativeToolTip": "Rank.Tests\\docs\\rank-tests.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-21T10:24:47.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Summary.cshtml",
               "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\Pages\\Summary.cshtml",
               "RelativeDocumentMoniker": "Valuator\\Pages\\Summary.cshtml",
@@ -286,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "E2E.Tests.csproj",
               "DocumentMoniker": "C:\\MRT47\\ds-2025\\E2E.Tests\\E2E.Tests.csproj",
               "RelativeDocumentMoniker": "E2E.Tests\\E2E.Tests.csproj",
@@ -298,19 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RankCalculatorTests.cs",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
-              "RelativeDocumentMoniker": "Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
-              "RelativeToolTip": "Rank.Tests\\RankCalculatorTests\\RankCalculatorTests.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:18:58.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "docker-compose.yaml",
               "DocumentMoniker": "C:\\MRT47\\ds-2025\\RankCalculator\\docker-compose.yaml",
               "RelativeDocumentMoniker": "RankCalculator\\docker-compose.yaml",
@@ -322,19 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "rank-tests.txt",
-              "DocumentMoniker": "C:\\MRT47\\ds-2025\\Rank.Tests\\docs\\rank-tests.txt",
-              "RelativeDocumentMoniker": "Rank.Tests\\docs\\rank-tests.txt",
-              "ToolTip": "C:\\MRT47\\ds-2025\\Rank.Tests\\docs\\rank-tests.txt",
-              "RelativeToolTip": "Rank.Tests\\docs\\rank-tests.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-21T10:24:47.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\MRT47\\ds-2025\\EventLogger\\Program.cs",
               "RelativeDocumentMoniker": "EventLogger\\Program.cs",
@@ -420,7 +422,7 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -428,26 +430,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "docker-compose.yaml",
               "DocumentMoniker": "C:\\MRT47\\ds-2025\\Valuator\\docker-compose.yaml",
               "RelativeDocumentMoniker": "Valuator\\docker-compose.yaml",
               "ToolTip": "C:\\MRT47\\ds-2025\\Valuator\\docker-compose.yaml",
               "RelativeToolTip": "Valuator\\docker-compose.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-05-21T22:38:47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\MRT47\\ds-2025\\RankCalculator\\Program.cs",
               "RelativeDocumentMoniker": "RankCalculator\\Program.cs",
               "ToolTip": "C:\\MRT47\\ds-2025\\RankCalculator\\Program.cs",
               "RelativeToolTip": "RankCalculator\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAFwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T19:14:18.014Z",
               "EditorCaption": ""
